@@ -1,0 +1,98 @@
+
+.banner {
+	height: 80px;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.content {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	padding: 20px 0 0 20px;
+}
+
+header span {
+	float: left;
+	padding: 35px 0 0 10px;
+}
+
+header ul {
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header ul li {
+	float: left;
+	height: 80px;
+}
+
+.home-spiel {
+	background: url('../images/sunset.jpg') no-repeat center;
+	background-size: 100% auto;
+	height: 260px;
+	margin: 0 auto;
+}
+
+.spiel {
+	padding-top: 1px;
+}
+
+.spiel p {
+	background-color: #000000;
+	color: #ffffff;
+	margin: 20px 0 0 0;
+}
+
+.spiel p:first-child {
+	padding-left: 25px;
+}
+
+.spiel p + p {
+	padding-left: 65px;
+}
+
+.spiel a {
+	width: 150px;
+	margin: 50px 0 0 0;
+	padding: 15px 0 15px 50px;
+	display: block;
+	background-color: #000000;
+}
+
+.home-trips {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.home-trips img {
+	width: 300px;
+	height: 200px;
+}
+
+.home-trips ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.home-trips ul li {
+	float: left;
+	width: 50%;
+}
+
+footer div p {
+	padding: 35px 0 0 10px;
+}
+
+
+
+
+
+
