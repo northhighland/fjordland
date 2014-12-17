@@ -1,3 +1,6 @@
+body {
+	background-color: #BDBDBD;
+}
 
 .banner {
 	height: 80px;
@@ -33,10 +36,15 @@ header ul li {
 	height: 80px;
 }
 
+header a {
+	height: 80px;
+	display: block;
+}
+
 .home-spiel {
-	background: url('../images/sunset.jpg') no-repeat center;
-	background-size: 100% auto;
-	height: 260px;
+	background: url('../images/sunset.jpg') no-repeat;
+	background-size: 1024px auto;
+	height: 410px;
 	margin: 0 auto;
 }
 
@@ -47,21 +55,23 @@ header ul li {
 .spiel p {
 	background-color: #000000;
 	color: #ffffff;
-	margin: 20px 0 0 0;
+	padding: 8px 0;
 }
 
 .spiel p:first-child {
-	padding-left: 25px;
+	margin: 40px 0 0 0;
+	padding-left: 50px;
 }
 
 .spiel p + p {
-	padding-left: 65px;
+	margin: 10px 0 0 0;
+	padding-left: 75px;
 }
 
 .spiel a {
 	width: 150px;
-	margin: 50px 0 0 0;
-	padding: 15px 0 15px 50px;
+	margin: 210px 0 0 0;
+	padding: 15px 0 15px 75px;
 	display: block;
 	background-color: #000000;
 }
